@@ -1,1 +1,1 @@
-# Digital-Design-Examples
+# Digital-Design-Lab2
