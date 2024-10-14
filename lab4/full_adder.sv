@@ -9,7 +9,6 @@ module full_adder(
 );
     always_comb begin
         sum = a ^ b ^ cin; 
-        cout = (a ^ b)  ? cin  : b;           
-        cout = (a & b) | (cin & (a ^ b)); 
+        cout = (a ^ b) ? cin  : b;           
     end
 endmodule
